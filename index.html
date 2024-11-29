@@ -4,13 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/styles.css">
+    
+    <!-- Se agrega la carpeta css para indicar la ruta correcta del archivo css -->
+    <!-- <link rel="stylesheet" href="assets/styles.css"> -->
+    <link rel="stylesheet" href="assets/css/styles.css">
     <title>APIs</title>
 </head>
 <body>
     <p class="name"></p>
     <p class="blog"></p>
+    <!-- Se añade una nueva etiqueta p para location que no estaba definida -->
+    <p class="location"></p>
 
-  <script src="../assets/js/app.js"></script>
+    <!-- Se quitan ../ ya que la carpeta assets esta dentro de la ruta actual. ../ sirve para ir una ruta atras -->
+    <!-- <script src="../assets/js/app.js"></script> -->
+    <script src="assets/js/app.js"></script>
 </body>
 </html>
